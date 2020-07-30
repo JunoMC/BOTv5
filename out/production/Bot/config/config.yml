@@ -1,0 +1,29 @@
+#change xxxxxxxx to token of your bot to active bot
+token: NzI4NTU4MzUwNzMxNTc1MzQ3.Xv8JOQ.OFijrdr4XkafOsBpStrmjC2vDsk
+
+#set status for your bot (ONLINE/INVISIBLE/IDLE/DO_NOT_DISTURB)
+status: DO_NOT_DISTURB
+
+#set the activity which bot doing when run (just show the active)
+activity:
+  #enable/disable bot's activity
+  enable: true
+
+  #type: PLAYING/WATCHING/STREAMING
+  type: PLAYING
+  name: IntelliJ
+
+settings:
+  commands:
+    #just a char to recognize that is command
+    start: !
+
+    #channels where you can execute the command (ID_CHANNEL)
+    channels:
+      - 812747128218124
+      - 728562596093100032
+
+  admin-role-id: 728557156584128533
+
+  staff-member-id:
+    - DevDauXanh#6234
